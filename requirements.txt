@@ -1,1 +1,7 @@
-selenium>=4.9.0
+# Required packages for Scribd Document Downloader
+selenium>=4.32.0
+urllib3<3,>=1.26
+trio~=0.17
+trio-websocket~=0.9
+typing_extensions~=4.9
+websocket-client~=1.8
